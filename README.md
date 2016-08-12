@@ -1,5 +1,22 @@
 # mruby-timebomb
 
+Time limitter for block in mruby.
+
+## install by mrbgems
+
+add conf.gem line to build_config.rb
+
+```ruby
+
+MRuby::Build.new do |conf|
+
+    # ... (snip) ...
+
+    conf.gem :git => 'https://github.com/everysick/mruby-timebomb.git'
+end
+
+```
+
 ## example
 
 ```ruby
